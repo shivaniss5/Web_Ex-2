@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body bgcolor="cadetblue">
+
+    <center>
+        <!--<img src="logo.jpg" height="100" width="100">-->
+        <img src="logo.jpg" height="100" width="100" style="border-radius:50%;">
+        <h2>Melody Beats Music Band</h2>
+        <h3>Membership Registration Form</h3>
+    </center>
+
+    <form>
+
+        <label for="name">Full Name</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" pattern="[A-Za-z ]{3,30}" required>
+        <br><br>
+
+        <label for="email">Email Address</label><br>
+        <input type="email" id="email" name="email"
+        placeholder="example@gmail.com" required>
+        <br><br>
+
+        <label for="password">Create Password</label><br>
+        <input type="password" id="password"
+        name="password" required>
+        <br><br>
+
+        <label for="age">Age</label><br>
+        <input type="number" id="age"
+        name="age" min="15" max="60" required>
+        <br><br>
+
+        <label for="date">Preferred Joining Date</label><br>
+        <input type="date" id="date"
+        name="date" required>
+        <br><br>
+
+        <label>Gender</label><br>
+
+        <input type="radio"
+        name="gender" value="Male"> Male
+
+        <input type="radio"
+        name="gender" value="Female"> Female
+
+        <input type="radio"
+        name="gender" value="Other"> Other
+
+        <br><br>
+
+        <label>Musical Skills</label><br>
+
+        <input type="checkbox"
+        name="skill" value="Singing"> Singing
+
+        <input type="checkbox"
+        name="skill" value="Guitar"> Guitar
+
+        <input type="checkbox"
+        name="skill" value="Keyboard"> Keyboard
+
+        <input type="checkbox"
+        name="skill" value="Drums"> Drums
+
+        <br><br>
+
+        <label>Select Music Genre</label><br>
+
+        <select required>
+
+            <option>Select Genre</option>
+
+            <option>Pop</option>
+
+            <option>Rock</option>
+
+            <option>Classical</option>
+
+            <option>Jazz</option>
+
+            <option>Hip Hop</option>
+
+        </select>
+
+        <br><br>
+
+        <label>Why do you want to join our band?</label><br>
+
+        <textarea rows="4" cols="40"
+        placeholder="Write your interest here..."></textarea>
+
+        <br><br>
+
+        <label>Choose Your Favorite Stage Color</label><br>
+
+        <input type="color">
+
+        <br><br>
+
+        <label>Upload Your Profile Photo</label><br>
+
+        <input type="file">
+
+        <br><br>
+
+        <label>Performance Confidence Level</label><br>
+
+        <input type="range"
+        min="0"
+        max="100">
+
+        <br><br>
+
+        <input type="submit" value="Register">
+
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+
+</html>
